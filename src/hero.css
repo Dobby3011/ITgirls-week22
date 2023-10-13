@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.hero {
+    border: 2px solid black;
+
+}
+
+h2 {
+    color: rgb(13, 98, 119);
+}
+
+img {
+    width: 100%;
+}
